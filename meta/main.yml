@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: filebeat
   author: silviu
-  description: Setup Apache ActiveMQ from binary tgz
+  description: Setup filebeat without configuration for use with Graylog sidecar
 
   license: "license (BSD, MIT)"
 

@@ -20,7 +20,7 @@ Including an example of how to use your role (for instance, with variables passe
       become: yes
       
       roles:
-        - role: filebeat
+        - role: silviuvulcan.filebeat
     
 
 License
