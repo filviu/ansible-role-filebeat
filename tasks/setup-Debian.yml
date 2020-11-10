@@ -1,6 +1,8 @@
 ---
 - name: Ensure dependencies are installed (Debian).
-  apt: name=apt-transport-https state=present
+  apt:
+    name: apt-transport-https
+    state: present
 
 - name: Setup Elasticsearch apt key.
   apt_key:
