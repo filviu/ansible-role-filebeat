@@ -1,6 +1,6 @@
 # Ansible Role: Apache ActiveMQ
 
-[![CI](https://github.com/silviuvulcan/ansible-role-activemq/workflows/CI/badge.svg?event=push)](https://github.com/silviuvulcan/ansible-role-activemq/actions?query=workflow%3ACI)
+[![CI](https://github.com/silviuvulcan/ansible-role-filebeat/workflows/CI/badge.svg?event=push)](https://github.com/silviuvulcan/ansible-role-filebeat/actions?query=workflow%3ACI)
 
 Sets up Filebeat. Doesn't deploy a configuration, this is for use together with the Graylog Sidecar.
 
