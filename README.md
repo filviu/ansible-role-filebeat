@@ -1,4 +1,4 @@
-# Ansible Role: Apache ActiveMQ
+# Ansible Role: Filebeat
 
 [![CI](https://github.com/silviuvulcan/ansible-role-filebeat/workflows/CI/badge.svg?event=push)](https://github.com/silviuvulcan/ansible-role-filebeat/actions?query=workflow%3ACI)
 
