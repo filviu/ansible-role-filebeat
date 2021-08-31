@@ -1,35 +1,40 @@
-Role Name
-=========
+# Ansible Role: Apache ActiveMQ
 
-Sets up Filebeat Collector (no config, useful for graylog sidecar)
+[![CI](https://github.com/silviuvulcan/ansible-role-activemq/workflows/CI/badge.svg?event=push)](https://github.com/silviuvulcan/ansible-role-activemq/actions?query=workflow%3ACI)
 
-Role Variables
---------------
+Sets up Filebeat. Doesn't deploy a configuration, this is for use together with the Graylog Sidecar.
 
-Check defaults/main for variables that can be adjusted.
+## Requirements
 
-Example Playbook
-----------------
+None.
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+## Role Variables
 
-    ---
-    
-    - name: Setup Filebeat Collector
-      hosts: all
-      become: yes
-      
-      roles:
-        - role: silviuvulcan.filebeat
-    
+See `defaults/main.yml`:
 
-License
--------
+    filebeat_version
 
-(BSD, MIT)
+The filebeat version to deploy.
+
+## Dependencies
+
+None.
+
+## Example Playbook
+
+```yaml
+---
+- hosts: all
+
+  roles:
+    - role: silviuvulcan.filebeat
+```
+
+## License
+
+MIT / BSD
 
 
-Author Information
-------------------
+## Author Information
 
-https://github.com/silviuvulcan/ansible-role-filebeat/
+This role was created by Silviu Vulcan to scratch his own itch.

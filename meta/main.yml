@@ -1,23 +1,32 @@
+---
 galaxy_info:
   role_name: filebeat
-  author: silviu
-  description: Setup filebeat without configuration for use with Graylog sidecar
-
+  author: silviuvulcan
+  description: Filebeat client. Deploys without configuration in order to be used with the graylog sidecar.
   license: "license (BSD, MIT)"
 
   min_ansible_version: 2.7
 
   platforms:
-  - name: Debian
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
-  - name: EL
-    versions:
-    - all
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+        - bullseye
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
+    - name: EL
+      versions:
+        - 7
+        - 8
 
-  galaxy_tags: []
+  galaxy_tags:
+    - filebeat
+    - syslog
+    - monitoring
+    - graylog
 
 dependencies: []
