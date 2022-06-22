@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   role_name: filebeat
-  author: silviuvulcan
+  author: filviu
   description: Filebeat client. Deploys without configuration in order to be used with the graylog sidecar.
   license: "license (BSD, MIT)"
 
