@@ -6,6 +6,6 @@
   when: ansible_os_family == 'Debian'
 
 - name: Ensure Filebeat is installed
-  package: 
+  ansible.builtin.package:
     name: filebeat
     state: present
